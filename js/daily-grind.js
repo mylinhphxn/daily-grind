@@ -61,10 +61,44 @@ switch(myDay){
 
    case 0:
      today = "Sunday";
+
+     coffee = {
+        name: "Drip",
+        alt: "This is a pic of a Drip Coffee",
+        desc: `Drippin Coffee.`,
+        pic: "images/drip.jpg",
+        color: "blue",
+        day: "Sunday"
+    }
+
+   break;
+
+   case 1:
+     today = "Monday";
+
+     coffee = {
+        name: "Caramel",
+        alt: "This is a pic of a Caramel Latte",
+        desc: `MMM Caramel`,
+        pic: "images/caramel-latte.jpg",
+        color: "gold",
+        day: "Monday"
+    }
+
    break;
 
    case 2:
      today = "Tuesday";
+
+     coffee = {
+        name: "Cold Brew",
+        alt: "This is a pic of a Cold Brew",
+        desc: `Cold Brew is Yummy.`,
+        pic: "images/cold-brew.jpg",
+        color: "brown",
+        day: "Tuesday"
+    }
+
    break;
 
    case 3:
@@ -79,28 +113,56 @@ switch(myDay){
         day: "Wednesday",
         desc: `I like me some Bubble Tea!`
 
-            };
+    }
 
   break;
 
-  case 4:
-    today = "Thursday";
+    case 4:
+        today = "Thursday";
 
-    coffee = {
+        coffee = {
 
-        color: "brown",
-        name: "Mocha",
-        pic: "images/mocha.jpg",
-        alt: "A picture of a Mocha",
-        day: "Thursday",
-        desc: `I love Mocha!`
+            color: "brown",
+            name: "Mocha",
+            pic: "images/mocha.jpg",
+            alt: "A picture of a Mocha",
+            day: "Thursday",
+            desc: `I love Mocha!`
 
-            };
+        }
 
-  break;
+    break;
 
-   default:
-     today = "Something went wrong!";
+    case 5:
+        today = "Friday";
+
+        coffee = {
+            name: "Frappaccino",
+            alt: "This is a pic of a Frappaccino",
+            desc: `Frappaccino like Al Pacino.`,
+            pic: "images/frappaccino.jpg",
+            color: "Red",
+            day: "Friday"
+        }
+
+    break;
+
+    case 6:
+     today = "Saturday";
+
+
+			coffee = {
+				name: "Pumpkin Spice ",
+				alt: "This is a pic of Pumpkin Spice Latte",
+				desc: `Have some pumpkin, pumpkin.`,
+				pic: "images/pumpkin-spice-latte.jpg",
+				color: "magenta",
+				day: "Saturday"
+            }
+   break;
+
+    default:
+        today = "Something went wrong!";
 
 }
 // coffeeData = coffeeTemplate(coffee);
